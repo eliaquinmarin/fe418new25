@@ -1,463 +1,48 @@
-
-<!DOCTYPE html>
-<html lang="es-VE">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+﻿<!doctype html>
+<html lang="es">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-<meta name="generator" content="https://sites.google.com/view/fe418radio/" />
-<meta name="theme-color" content="#23005C">
-<meta http-equiv="Content-Language" content="es-VE" />
-<title>Radio FE 4:18 OnLine</title>
-<meta name="description" content="Radio FE 4:18 OnLine" />
-<meta name="keywords" content="EliaquinMarin" />
-<meta name="URL" content="https://sites.google.com/view/fe418radio/" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="theme-color" content="#08298a">
+<title>RADIO FE 4:18</title>
 
-<meta property="og:locale" content="es-VE">
-<meta property="og:title" content="Radio FE 4:18 OnLine" />
-<meta property="og:description" content="Radio FE 4:18 OnLine" />
-<meta name="description" content="Radio FE 4:18 OnLine" />
-<meta property="og:site_name" content="Radio FE 4:18 OnLine" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://sites.google.com/view/fe418radio/" />
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@eliaquinmarin">
-<meta name="twitter:image" content="cover.png?v=201" />
-<meta property="og:image" content="cover.png" />
-<meta name="thumbnail" content="cover.png?v=477" />
-<link rel="icon" href="cover.pngg" sizes="32x32" />
-<link rel="icon" href="cover.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="cover.png" />
-<meta name="msapplication-TileImage" content="cover.png" />
-
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&amp;display=swap" rel="stylesheet">
-
-<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-<link href='boxicons.min.css' rel='stylesheet'>
-<link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-<link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-<link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
-<link href="assets/css/style486a.css?v=327" rel="stylesheet">
-<link href="assets/css/banner5c3d.html?v=795" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style-playlist376c.css?v=682">
-<style type="text/css">
-
-
-
-
-
-#fondo {
- width: 100%;
-			height: 100vh;
-			background-image: linear-gradient(-60deg, #5415c3 50%, #09f 50%);
-			background-size: 400% 400%;
-			position: relative;
-			animation:cambiar 5s ease-in-out infinite alternate;
-}
-
-@keyframes cambiar{
-			0%{background-position: 0 50%;}
-			50%{background-position: 100% 50%;}
-			100%{background-position: 0 50%;}
-		}
-
-
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Desktop Navigation */
-.nav-menu * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: radial-gradient(circle, #3901A4 20%, #23005C 100%);
-}
-
-.contact .php-email-form button[type="submit"] {
-  background: #23005C!important;
-  border: 0;
-  padding: 10px 35px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-.contact .php-email-form button[type="submit"]:hover {
-  background: #3901A4!important;;
-}
-
-.nav-menu > ul > li {
-  position: relative;
-  white-space: nowrap;
-  font-family: 'Poppins';
-}
-
-#relogio{
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  border-radius: 50px;
-  display: flex;
-  width: 185px;
- 
- 
-  
-  height: 45px;
-  font-size: 25px;
-  font-family: "Poppins", sans-serif;
-  color: #FFFFFF!important;
-  background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(40px);
-  border: 2px solid #FFFFFF!important;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-}
-
-#webtv{
-  position: absolute;
-  top: 70px;
-  right: 20px;
-  border-radius: 50px;
-  display: flex;
-  width: 185px;
-  height: 45px;
-  font-size: 25px;
-  font-family: "Poppins", sans-serif;
-  color: #FFFFFF!important;
-  background-color: #23005C!important;
-  border: 2px solid #FFFFFF!important;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-}
-
-.nav-menu a {
-  display: flex;
-  align-items: center;
-  color: #FFFFFF!important;
-  padding: 10px 18px;
-  margin-bottom: 8px;
-  transition: 0.3s;
-  font-size: 15px;
-  border-radius: 50px;
-  border: 2px solid #fff;
-  background: #23005C!important;
-  height: 46px;
-  width: 100%;
-  overflow: hidden;
-  font-family: 'Poppins';
-  transition: 0.3s;
-}
-
-.nav-menu a i {
-  font-size: 20px;
-  font-family: 'Poppins';
-}
-
-.nav-menu a span {
-  padding: 0 5px 0 7px;
-  color: #FFFFFF!important;
-}
-
-@media (min-width: 3000px) {
-  .nav-menu a {
-    width: 56px;
-  }
-  .nav-menu a span {
-    display: none;
-    font-family: 'Poppins';
-    color: #FFFFFF!important;
-  }
-}
-
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #fff;
-  background: #3901A4!important;
-}
-
-.nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
-  color: #FFFFFF!important;
-}
-
-.nav-menu a:hover, .nav-menu li:hover > a {
-  width: 100%;
-  color: #FFFFFF!important;
-}
-
-.nav-menu a:hover span, .nav-menu li:hover > a span {
-  display: block;
-}
-
-.cars {
-  width: auto;
-  height: auto;
-  padding: 10px;
-  border-radius: 50px;
-  background-color: #FFFFFF!important;
-  position: absolute;
-  bottom: 70px;
-  left: 25%;
-  right: 25%;
-  z-index: 0;
-  font-size: 22px;
-  color: #FFFFFF!important;
-}
-.cars h1{
-  margin-top: -10px;
-}
-
-
-.Estilo1 {
-	font-size: 24px;
-	font-weight: bold;
-	font-family: "Poppins";
-
-}
-
-@media only screen and (max-width: 768px) {
-  .cars {
-  width: auto;
-  height: auto;
-  padding: 0px;
-  border-radius: 50px;
-  background-color: #FFFFFF!important;
-  position: absolute;
-  bottom: 120px;
-  left: 1%;
-  right: 1%;
-  z-index: 0;
-  font-size: 20px;
-  color: #FFFFFF!important;
-  }
-
-  .cars h1{
-  margin-top: -10px;
-}
-#relogio {
-  display: none
-}
-}
-
-
-#3901A4!important;
-
-#23005C!important;
-
-#23005C!important;
-
-#FFFFFF!important;
-
-
+<link href="css/style.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/lunaradio-animado.js"></script>
+<style>
+html,body{font-family:"Open Sans",sans-serif;height:100%;margin:0;display:flex;flex-direction:column;color:#272829;}
 </style>
-
-<link rel="stylesheet" media="screen" href="assets/css/styles.css">
-<script data-ad-client="ca-pub-2805434057852709" async src="f.txt"></script>
-
-
-<link href="modern-ticker/css/modern-ticker.css" type="text/css" rel="stylesheet">
-<link href="modern-ticker/themes/theme1.css" type="text/css" rel="stylesheet">
-<script src="modern-ticker/js/jquery-3.2.1.min.js" type="text/javascript"></script>
-
-<script src="modern-ticker/js/jquery.modern-ticker.min.js" type="text/javascript"></script>
-
-
-
-<script type="text/javascript">
-        jQuery(document).ready(function() {
-
-            jQuery(".modern-ticker").modernTicker({
-                effect: "scroll",
-                scrollType: "continuous",
-                scrollStart: "inside",
-                scrollInterval: 30,
-                transitionTime: 1500,
-                randomOrder: true,
-                linksEnabled: true,
-                pauseOnHover: true,
-                autoplay: true,
-                feedType: "rss",
-                feedUrl: "load-files/feed.rss",
-                loadType: "direct",
-                feedUrl: "https://www.google.com.br/alerts/feeds/02955615230004971654/8405518594258309533",
-                loadType: "process",
-                loadProcess: "rss2json",
-                forceNoCache: false,
-                feedCount: 20,
-                linkTarget: "_blank",
-                refresh: "5:00"
-            });
-        });
-    </script>
 </head>
 
 <body>
 
-<button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-<header id="header" class="d-flex flex-column justify-content-center">
-<nav class="nav-menu">
-<ul>
-
-<li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sites.google.com/view/fe418radio/"><i class="bx bxl-facebook-circle" alt="Facebook"></i>
-<span>COMPARTE</span></a></li>
-<li><a target="_blank" href="https://twitter.com/intent/tweet?url=https://sites.google.com/view/fe418radio/&text=Escucha la gran variedad musical cristiana&via=EliaquinMarin&hashtags=radiofe418online,sonandoportodoloalto"><i class="bx bxl-twitter" alt="twitter"></i>
-<span>COMPARTE</span></a></li>
-<li><a href="https://wa.me/?text=¡Entra y escucha%20la mejor radio online!%20FE 4:18%20https://sites.google.com/view/fe418radio/" target="_blank"><i class="bx bxl-whatsapp" alt="Whatsapp"></i>
-<span>COMPARTE</span></a></li>
-<li><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://sites.google.com/view/fe418radio/&title=¡Entra y escucha%20la mejor radio online!%20FE 4:18%20"><i class="bx bxl-linkedin-square"></i><span>COMPARTE</span></a></li>
-<li><a href="https://t.me/share/url?url=https://sites.google.com/view/fe418radio/&text=¡Entra y escucha%20la mejor radio online!%20FE 4:18%20" target="_blank"><i class="bx bxl-telegram" alt="telegram"></i>
-<span>COMPARTE</span></a></li>
-<li><a href="https://www.reddit.com/submit?url=https://sites.google.com/view/fe418radio/&title=¡Entra y escucha%20la mejor radio online!%20FE 4:18%20" target="_blank"><i class="bx bxl-reddit" alt="reddit"></i>
-<span>COMPARTE</span></a></li>
-
-
-
-
-
-</ul>
-</nav>
-</header>
-<section id="fondo">
-
-<div id="caixa">
-<div id="topo-player">
 
 <div id="player"></div>
-
-<div id="relogio">
-<div class="bx bx-stopwatch bx-tada"></div>
-<div id="hora"> Hora Actual </div>
-</div>
-
-
-
-</div>
-<div id="rodape">
-<div class="banners">
-<div class="titulo-banners">
-<h1 style="padding-bottom: 4px;">📲ALIADOS📨</h1>
-</div>
-<div id="carouselSite" class="carousel-fade" data-ride="carousel">
-<div class="carousel-inner">
-<div class="carousel-item active" style="display: flex; flex-direction: row; justify-content: center;">
-<a href="#">
-<img src="assets/img/preloader.svg" class="img-fluid d-block">
-</a>
- </div>
-<div>
-<div class="carousel-item" style="max-width: 728px !important; max-height: 90px !important;">
-<center><a href="https://sites.google.com/view/fe418radio/" target="_black" title="RADIO FE 4:18 ONLINE">
-<img class="img-fluid d-block" src="anuncio1.png">
-</a></center>
-</div>
-<div class="carousel-item" style="max-width: 728px !important; max-height: 90px !important;">
-<center><a href="https://www.contextomediagroup.com/" target="_black" title="CONTEXTO MEDIA GROUP">
-<img class="img-fluid d-block" src="painel/upload/contexto.jpg">
-</a></center>
-</div>
-<div class="carousel-item" style="max-width: 728px !important; max-height: 90px !important;">
-<center><a href="https://www.tatihanapozopuccini.com/" target="_black" title="TATIHANA POZO PUCCINI">
-<img class="img-fluid d-block" src="painel/upload/tati.jpg">
-</a></center>
-</div>
-<div class="carousel-item" style="max-width: 728px !important; max-height: 90px !important;">
-<center><a href="https://directoriounisalud.com/" target="_black" title="DIRECTORIO UNISALUD">
-<img class="img-fluid d-block" src="painel/upload/directorio.jpg">
-</a></center>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="copyright1">
-<center>
-<a href="https://www.facebook.com/facebook.radiofe418online/" target="_blank">FACEBOOK</a>   /   <a href="https://www.instagram.com/radiofe418online" target="_blank">INSTAGRAM</a>   /   <a href="https://whatsapp.com/channel/0029VaQ9EQL9xVJXn4FNqw0N" target="_blank">WHATSAPP</a>   /   <a href="https://t.me/radiofe418" target="_blank">TELEGRAM</a>   /   <a href="https://whatsapp.com/channel/0029VaQ05S3CBtx7jtDfnE0f" target="_blank">IGLESIA</a>   /   <a href="https://whatsapp.com/channel/0029VaUyF1f9WtC9U9aGpE07" target="_blank">MATUTINO</a>
-</center>
-</div>
-</div>
-</div>
-
-
-<div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
-<div class="modal-dialog modal-lg" role="document">
-<div class="modal-content">
-<div class="modal-boddy">
-
-<section id="contact" class="contact">
-<div class="container" data-aos="fade-up">
-    
-  <iframe src="fondo.jpg" frameborder="0" scrolling="no" allowFullScreen="true" width="100%" height="430"></iframe>
-</div>
-
-
-
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="assets/js/lunaradio.js"></script>
 <script>
 $("#player").lunaradio({
-token: "",
-userinterface: "big", //big o small
-backgroundcolor: "#5415c3",
-fontcolor: "#FFFFFF",
-hightlightcolor: "#3811D4", 
+userinterface: "big", 
+backgroundcolor: "rgba(9,15,25,0.6)",
+fontcolor: "#ffffff",
+hightlightcolor: "#b60c0f", 
 fontname: "Unica One",
 googlefont: "Unica+One&display=swap", 
 fontratio: "0.4", 
-radioname: "RADIO FE 4:18", //nombre de radio
+radioname: "Radio FE 4:18 / Sonando por todo lo Alto", //nombre de radio
 scroll: "true",
 autoplay: "true", 
-coverimage: "cover.png", //link o ruta de logo radio
+coverimage: "assets/logosuave.jpg",
 onlycoverimage: "false", //true para mostrar solo logo radio
 coverstyle: "animated",//circle o square o hits1
 usevisualizer: "real", 
-visualizertype: "8", 
-multicolorvisualizer: "true",
-color1: "#FFFFFF",
-color2: "#FFFFFF",
-color3: "#FFFFFF",
-color4: "#FFFFFF",
 visualizeropacity: "1.0",
+multicolorvisualizer: "true",
+color1: "#ffffff",
+color2: "#ffffff",
+color3: "#FFffff",
+color4: "#FFfffF",
+visualizertype: "8", 
 usestreamcorsproxy: "false", //true o false
 corsproxy: "", 
 streamurl:"http://78.129.241.110:24415/;", 
@@ -471,40 +56,22 @@ radionomyapikey: "",
 radiojarid: "",  
 radiocoid: "",
 itunestoken: "1000lIPN",
-metadatainterval: "5000", 
+metadatainterval: "20000", 
 displayliveicon: "true",
 volume: "100",
 debug: "true",
 });
 </script>
 
-<script>
-        function relogio() {
-            let elementoID = document.getElementById('hora');
-            let horalocal = new Date().toLocaleTimeString('pt-br');
-            elementoID.innerHTML = horalocal;
-        }
-        setInterval(relogio, 1000);
-    </script>
- 
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-<script src="assets/vendor/counterup/counterup.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/venobox/venobox.min.js"></script>
-<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-<script src="assets/vendor/typed.js/typed.min.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/js/main.js"></script>
 
-<script src="assets/js/particles.js"></script>
-<script src="assets/js/app.js"></script>
+
+
 
 <script>
-        document.getElementById("year").innerHTML = new Date().getFullYear();
-    </script>
+$(".mobile-nav-toggle").click(function(){
+$("body").toggleClass("mobile-nav-active");
+$(".mobile-nav-toggle i").toggleClass("fa-bars fa-times");
+});
+</script>
 </body>
-
 </html>
